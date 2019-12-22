@@ -63,6 +63,7 @@ Rainbow::Rainbow() : CubeApplication(40) {
     allTheColorsRandom.push_back(Color(0,rand()%255, rand()%255));
     allTheColorsRandom.push_back(Color(rand()%255,0,rand()%255));
     allTheColorsRandom.push_back(Color(rand()%255,rand()%255,rand()%255));
+
 }
 
 bool Rainbow::loop() {
